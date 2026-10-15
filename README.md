@@ -24,6 +24,17 @@ The externalizing input's cohort cannot be inferred from its filename. Record th
 exact GWAS source, release, ancestry, phenotype, and preparation steps used for
 your run; the former README's ABCD label is not a substitute for this provenance.
 
+### Validation and future updates
+
+This research implementation may contain errors or limitations that have not yet
+been identified, despite the checks described above. Further validation may lead
+to revisions. Any corrections made following additional checks will be documented
+in the commit history or release notes, including their effect on outputs when known.
+
+Users should independently validate the code for their intended analysis and
+record the exact commit used. The current validation status and known limitations
+are described in this README.
+
 ## Requirements
 
 - Bash, standard Unix utilities, and Python **3.9 or newer** for `pipeline_io.py`.
